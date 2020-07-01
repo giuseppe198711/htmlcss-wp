@@ -9,7 +9,6 @@
   background-image: url(../img/header.jpg);
   height: 300px;
   margin-top: 1%;
-
   border: 8px solid #fff;
 }
 
@@ -40,13 +39,11 @@ nav {
 .main-menu li:hover {
   background-color: lightgrey;
   border-bottom: 3px solid white;
-
 }
 
 .link {
   color: green;
 }
-
 
 .main-menu {
   list-style: none;
@@ -110,7 +107,6 @@ h2 {
   margin-bottom: 60px;
 }
 
-
 .col-central {
   float: left;
   width: 40%;
@@ -133,7 +129,49 @@ padding: 10px;
 }
 
 footer {
+position: relative;
+text-align: center;
+padding: 10px;
 margin-top: 1%;
 background-color: #fff;
 height: 150px;
+}
+
+.facebook {
+  position: absolute;
+  bottom: 30px;
+  left: 150px;
+  width: 50px;
+  height: 50px;
+}
+
+.fa-facebook-square{
+  font-size: 40px;
+  color: lightgrey;
+}
+
+.instagram {
+  position: absolute;
+  bottom: 30px;
+  right: 480px;
+  width: 50px;
+  height: 50px;
+}
+
+.fa-instagram {
+  font-size: 40px;
+  color: lightgrey;
+}
+
+.git {
+  position: absolute;
+  bottom: 30px;
+  right: 150px;
+  width: 50px;
+  height: 50px;
+}
+
+.fa-github {
+  font-size: 40px;
+  color: lightgrey;
 }
